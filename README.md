@@ -13,7 +13,7 @@ __2.实现了图片的二值化与降噪处理__ 2020/6/26
 
 ---
 
-### 爬虫：获取验证码图片
+## 爬虫：获取验证码图片
 
 ~~（其实最开始是想去Pixiv上爬一些妹子的图片的说）~~
 
@@ -53,7 +53,7 @@ for i in range(100): # 下载数量，我设置的100
 
 ---
 
-###　图片的二值化与降噪处理  
+## 图片的二值化与降噪处理  
 
 
 根据上文的爬虫，已经成功的下载了100 张验证码的图片啦！　但是我发现这些验证码有两个普遍的问题：  
@@ -82,7 +82,8 @@ def two_value(image, G): # G: 图像二值化阀值
 
 处理前：  
 
-![处理前](https://github.com/FTLIKON/My_Py_Image/blob/master/Blog_Png/2-1.png?raw=true)
+![处理前](https://github.com/FTLIKON/My_Py_Image/blob/master/Blog_Png/2-1.png?raw=true)  
+
 处理后:  
 
 ![二值化处理后](https://github.com/FTLIKON/My_Py_Image/blob/master/Blog_Png/2-2.png?raw=true)
