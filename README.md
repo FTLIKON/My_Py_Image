@@ -80,9 +80,11 @@ def two_value(image, G): # G: 图像二值化阀值
 
 这里我发现阈值G设为230最为合适，下面是处理后的效果：  
 
-处理前：
+处理前：  
+
 ![处理前](https://github.com/FTLIKON/My_Py_Image/blob/master/Blog_Png/2-1.png?raw=true)
-处理后:
+处理后:  
+
 ![二值化处理后](https://github.com/FTLIKON/My_Py_Image/blob/master/Blog_Png/2-2.png?raw=true)
 
 可以说效果还是非常好的。但是可以发现依然有一些像素点孤零零的在这些字符外，这些像素点对我们识别图片有害无益。  
